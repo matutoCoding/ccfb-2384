@@ -1,0 +1,17 @@
+{
+  "name": "mugou-parametric",
+  "private": true,
+  "version": "0.1.0",
+  "description": "参数化木构建模工具(斗拱/梁架)—— TypeScript + WebGL2,无第三方引擎",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "~5.6.3",
+    "vite": "^5.4.10"
+  }
+}
